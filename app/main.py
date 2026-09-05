@@ -7,7 +7,7 @@ from app.api.v1.api import api_router
 
 app = FastAPI(
     title=settings.PROJECT_NAME,
-    description="Centralia Tours uchun sayohat agentligi backend API (tours, bookings, payments, auth)",
+    description="Silkora Tours uchun sayohat agentligi backend API (tours, bookings, payments, auth)",
     version="1.0.0",
     docs_url="/api/docs",
     redoc_url="/api/redoc",
