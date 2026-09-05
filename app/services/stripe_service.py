@@ -40,7 +40,7 @@ def create_checkout_session(booking_id: str, amount: Decimal, currency: str, boo
                 "price_data": {
                     "currency": currency.lower(),
                     "unit_amount": unit_amount,
-                    "product_data": {"name": f"Centralia Tours - Booking {booking_number}"},
+                    "product_data": {"name": f"Silkora Tours - Booking {booking_number}"},
                 },
                 "quantity": 1,
             }
